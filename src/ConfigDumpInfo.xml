@@ -8,7 +8,7 @@
 		<Metadata name="CommonCommand.vsc_Code" id="338687ee-4b2c-419f-bd0e-06f55981d76b" configVersion="97de5e345d396d47a562c226f751213c30a8ab38"/>
 		<Metadata name="CommonCommand.vsc_Code.CommandModule" id="338687ee-4b2c-419f-bd0e-06f55981d76b.2" configVersion="d9e2f645a1f2582178790d393a1aa0313efe1f05"/>
 		<Metadata name="CommonModule.vsc_ОбработчикиРедактирования" id="8645edd2-492c-4b7a-989c-c897acae265a" configVersion="8bcbac2331c56986e177682e8610d8bdc41471fa"/>
-		<Metadata name="CommonModule.vsc_ОбработчикиРедактирования.Module" id="8645edd2-492c-4b7a-989c-c897acae265a.0" configVersion="6c4cacb8030a0899abb9daf0818c3a863e783e05"/>
+		<Metadata name="CommonModule.vsc_ОбработчикиРедактирования.Module" id="8645edd2-492c-4b7a-989c-c897acae265a.0" configVersion="4076db16fe0a888d2099dc841a4fb489964064c7"/>
 		<Metadata name="CommonPicture.vsc_icon" id="bc3d2b06-03bf-43f7-bc98-c39a9605e35a" configVersion="f7536c32740e1264b56c3ccbb2f61de3614e9620"/>
 		<Metadata name="CommonPicture.vsc_icon.Picture" id="bc3d2b06-03bf-43f7-bc98-c39a9605e35a.0" configVersion="9c60175def72c8cd6451e8d04edb45af22c86301"/>
 		<Metadata name="Configuration.vsc" id="9b129ace-6a62-440a-bdd7-6cacfa17a8df" configVersion="7d0d44d4046adc805024b7db61c5cc38aaf1facf"/>
