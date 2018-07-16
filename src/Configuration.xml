@@ -53,6 +53,7 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<CommonPicture>vsc_icon</CommonPicture>
 			<CommonModule>vsc_ОбработчикиРедактирования</CommonModule>
 			<CommonCommand>vsc_Code</CommonCommand>
 			<Catalog>Алгоритмы</Catalog>

@@ -5,11 +5,13 @@
 		<Metadata name="Catalog.Конвертации" id="07c110b9-d058-4a5e-8c82-77a967676d34" configVersion="6b9493a6d44c13e5c14d9b397a99e0df6942b2a0"/>
 		<Metadata name="Catalog.ПравилаКонвертацииОбъектов" id="b8a8ba79-6228-43b2-b42f-218901ff6875" configVersion="fe780dcdb111ba9a4873990520b29779f34e5e43"/>
 		<Metadata name="Catalog.ПравилаОбработкиДанных" id="b171be7c-a5fd-45e2-97fa-1493d630d338" configVersion="c1bf7c18a925b9147e9ef2f4a30f111640207996"/>
-		<Metadata name="CommonCommand.vsc_Code" id="338687ee-4b2c-419f-bd0e-06f55981d76b" configVersion="ae8166cd5f61db9053b644c9046b8f4b367744a9"/>
-		<Metadata name="CommonCommand.vsc_Code.CommandModule" id="338687ee-4b2c-419f-bd0e-06f55981d76b.2" configVersion="e35d3004f7a311e89a8647da65da740f639fd315"/>
+		<Metadata name="CommonCommand.vsc_Code" id="338687ee-4b2c-419f-bd0e-06f55981d76b" configVersion="97de5e345d396d47a562c226f751213c30a8ab38"/>
+		<Metadata name="CommonCommand.vsc_Code.CommandModule" id="338687ee-4b2c-419f-bd0e-06f55981d76b.2" configVersion="d9e2f645a1f2582178790d393a1aa0313efe1f05"/>
 		<Metadata name="CommonModule.vsc_ОбработчикиРедактирования" id="8645edd2-492c-4b7a-989c-c897acae265a" configVersion="8bcbac2331c56986e177682e8610d8bdc41471fa"/>
-		<Metadata name="CommonModule.vsc_ОбработчикиРедактирования.Module" id="8645edd2-492c-4b7a-989c-c897acae265a.0" configVersion="b6b34e6fc95968e35fd6284e84c44c4b8a98bc9a"/>
-		<Metadata name="Configuration.vsc" id="9b129ace-6a62-440a-bdd7-6cacfa17a8df" configVersion="4e4227d07adc3b4dcdc3f54bcbfa4af8d4394bb4"/>
+		<Metadata name="CommonModule.vsc_ОбработчикиРедактирования.Module" id="8645edd2-492c-4b7a-989c-c897acae265a.0" configVersion="6c4cacb8030a0899abb9daf0818c3a863e783e05"/>
+		<Metadata name="CommonPicture.vsc_icon" id="bc3d2b06-03bf-43f7-bc98-c39a9605e35a" configVersion="f7536c32740e1264b56c3ccbb2f61de3614e9620"/>
+		<Metadata name="CommonPicture.vsc_icon.Picture" id="bc3d2b06-03bf-43f7-bc98-c39a9605e35a.0" configVersion="9c60175def72c8cd6451e8d04edb45af22c86301"/>
+		<Metadata name="Configuration.vsc" id="9b129ace-6a62-440a-bdd7-6cacfa17a8df" configVersion="7d0d44d4046adc805024b7db61c5cc38aaf1facf"/>
 		<Metadata name="Language.Русский" id="835df396-67b5-4523-81d5-ac8c9569a40f" configVersion="967ed9faf7d9b5c44ace3b4bdcb6646ff0005116"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
