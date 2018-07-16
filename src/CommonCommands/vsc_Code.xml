@@ -17,6 +17,7 @@
 			<Shortcut/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<CommandParameterType>
+				<v8:Type>cfg:CatalogRef.ПравилаОбработкиДанных</v8:Type>
 				<v8:Type>cfg:CatalogRef.Конвертации</v8:Type>
 				<v8:Type>cfg:CatalogRef.ПравилаКонвертацииОбъектов</v8:Type>
 				<v8:Type>cfg:CatalogRef.Алгоритмы</v8:Type>

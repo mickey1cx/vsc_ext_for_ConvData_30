@@ -58,6 +58,7 @@
 			<Catalog>Алгоритмы</Catalog>
 			<Catalog>Конвертации</Catalog>
 			<Catalog>ПравилаКонвертацииОбъектов</Catalog>
+			<Catalog>ПравилаОбработкиДанных</Catalog>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
