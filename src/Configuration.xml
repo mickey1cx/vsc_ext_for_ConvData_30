@@ -60,6 +60,10 @@
 			<Catalog>Конвертации</Catalog>
 			<Catalog>ПравилаКонвертацииОбъектов</Catalog>
 			<Catalog>ПравилаОбработкиДанных</Catalog>
+			<Catalog>СоставыКонвертаций</Catalog>
+			<Catalog>ПравилаКонвертацииПредопределенныхДанных</Catalog>
+			<Catalog>ГруппыПравил</Catalog>
+			<DataProcessor>НастройкаПравилОбмена</DataProcessor>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

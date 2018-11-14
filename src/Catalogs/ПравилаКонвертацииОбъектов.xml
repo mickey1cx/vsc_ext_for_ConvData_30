@@ -26,7 +26,116 @@
 		<Properties>
 			<Name>ПравилаКонвертацииОбъектов</Name>
 			<ObjectBelonging>Adopted</ObjectBelonging>
+			<CodeLength>50</CodeLength>
+			<CodeType>String</CodeType>
+			<CodeAllowedLength>Variable</CodeAllowedLength>
 		</Properties>
-		<ChildObjects/>
+		<ChildObjects>
+			<Attribute uuid="a194ad74-963e-4d91-a556-75ef6a37a20f">
+				<Properties>
+					<Name>ОбъектКонфигурации</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>100</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="5b1c3a45-f647-488e-b64c-e169e0002d6c">
+				<Properties>
+					<Name>ИспользоватьДляПолучения</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="2e57a015-a91c-4a55-92a7-71be4da0510c">
+				<Properties>
+					<Name>АлгоритмПередОтправкойДанных</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="f742c5af-e7d9-42ac-bf71-2f2d1249f905">
+				<Properties>
+					<Name>АлгоритмПередПолучениемДанных</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="d7516026-55c4-4bc1-a6dc-54b7e5ccc221">
+				<Properties>
+					<Name>Группа</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ГруппыПравил</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="eebd35d5-dfd4-451e-9cc3-5f4196b58e9d">
+				<Properties>
+					<Name>АлгоритмПриПолученииДанных</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="ebbe16c9-4b6f-4b67-9afa-5e7c812d791a">
+				<Properties>
+					<Name>ОбъектФормата</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>100</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="29c54cde-e088-4560-a73a-d856cbbc3e03">
+				<Properties>
+					<Name>АлгоритмПриОтправкеДанных</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="5140dea4-8af4-452d-bdf1-27e4995d8b1e">
+				<Properties>
+					<Name>ИспользоватьДляОтправки</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
 	</Catalog>
 </MetaDataObject>
