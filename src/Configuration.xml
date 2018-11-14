@@ -57,6 +57,7 @@
 			<CommonTemplate>vsc_СтруктураВнешнейОбработки</CommonTemplate>
 			<CommonModule>vsc_ОбработчикиРедактирования</CommonModule>
 			<CommonCommand>vsc_Code</CommonCommand>
+			<CommonCommand>vsc_НастройкаПравилСозданияМенеджераОбмена</CommonCommand>
 			<Catalog>Алгоритмы</Catalog>
 			<Catalog>Конвертации</Catalog>
 			<Catalog>ПравилаКонвертацииОбъектов</Catalog>
@@ -65,6 +66,7 @@
 			<Catalog>ПравилаКонвертацииПредопределенныхДанных</Catalog>
 			<Catalog>ГруппыПравил</Catalog>
 			<DataProcessor>НастройкаПравилОбмена</DataProcessor>
+			<DataProcessor>vsc_НастройкаПравилСозданияМенеджераОбмена</DataProcessor>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
