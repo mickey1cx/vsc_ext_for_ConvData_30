@@ -8,6 +8,11 @@
 				<CommandName>Form.Command.СохранитьМодуль</CommandName>
 				<ExtendedTooltip name="ФормаСохранитьМодульРасширеннаяПодсказка" id="82"/>
 			</Button>
+			<Button name="Формаvsc_СоздатьФайлОбработкиМенеджераОбмена" id="458">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.vsc_СоздатьФайлОбработкиМенеджераОбмена</CommandName>
+				<ExtendedTooltip name="Формаvsc_СоздатьФайлОбработкиМенеджераОбменаРасширеннаяПодсказка" id="459"/>
+			</Button>
 			<Button name="ФормаНастроитьКонвертацию" id="384">
 				<Type>CommandBarButton</Type>
 				<CommandName>Form.Command.НастроитьКонвертацию</CommandName>
@@ -945,6 +950,26 @@
 					<v8:content>Загрузка обработчиков</v8:content>
 				</v8:item>
 			</ToolTip>
+		</Command>
+		<Command name="vsc_СоздатьФайлОбработкиМенеджераОбмена" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Файл обработки менеджера обмена.</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создает внешнюю обработку, содержащую модуль менеджера обмена.</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.DataProcessor</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action callType="Override">vsc_СоздатьФайлОбработкиМенеджераОбмена</Action>
+			<Representation>Picture</Representation>
 		</Command>
 	</Commands>
 	<Parameters>

@@ -54,6 +54,7 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<CommonPicture>vsc_icon</CommonPicture>
+			<CommonTemplate>vsc_СтруктураВнешнейОбработки</CommonTemplate>
 			<CommonModule>vsc_ОбработчикиРедактирования</CommonModule>
 			<CommonCommand>vsc_Code</CommonCommand>
 			<Catalog>Алгоритмы</Catalog>
