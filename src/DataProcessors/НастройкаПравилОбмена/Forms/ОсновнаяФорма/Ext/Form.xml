@@ -964,6 +964,7 @@
 					<v8:content>Создает внешнюю обработку, содержащую модуль менеджера обмена.</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Shortcut>Ctrl+S</Shortcut>
 			<Picture>
 				<xr:Ref>StdPicture.DataProcessor</xr:Ref>
 				<xr:LoadTransparent>true</xr:LoadTransparent>
