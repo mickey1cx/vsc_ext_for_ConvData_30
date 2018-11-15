@@ -15,13 +15,21 @@
 		</InputField>
 		<InputField name="КаталогДляГотовыхФайлов" id="4">
 			<DataPath>Объект.КаталогДляГотовыхФайлов</DataPath>
+			<ChoiceButton>true</ChoiceButton>
 			<ContextMenu name="КаталогДляГотовыхФайловКонтекстноеМеню" id="5"/>
 			<ExtendedTooltip name="КаталогДляГотовыхФайловРасширеннаяПодсказка" id="6"/>
+			<Events>
+				<Event name="StartChoice">КаталогДляГотовыхФайловНачалоВыбора</Event>
+			</Events>
 		</InputField>
 		<InputField name="ВерсияПлатформыДляГенерацииEPF" id="7">
 			<DataPath>Объект.ВерсияПлатформыДляГенерацииEPF</DataPath>
+			<ChoiceButton>true</ChoiceButton>
 			<ContextMenu name="ВерсияПлатформыДляГенерацииEPFКонтекстноеМеню" id="8"/>
 			<ExtendedTooltip name="ВерсияПлатформыДляГенерацииEPFРасширеннаяПодсказка" id="9"/>
+			<Events>
+				<Event name="StartChoice">ВерсияПлатформыДляГенерацииEPFНачалоВыбора</Event>
+			</Events>
 		</InputField>
 		<UsualGroup name="ГруппаКоманд" id="12">
 			<Title>
