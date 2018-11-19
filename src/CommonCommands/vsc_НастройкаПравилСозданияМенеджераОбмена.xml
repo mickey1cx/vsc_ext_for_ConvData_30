@@ -17,7 +17,7 @@
 				<xr:Ref>StdPicture.ReportSettings</xr:Ref>
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
-			<Shortcut>Ctrl+Shift+E</Shortcut>
+			<Shortcut>Ctrl+S</Shortcut>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<CommandParameterType>
 				<v8:Type>cfg:CatalogRef.Конвертации</v8:Type>
