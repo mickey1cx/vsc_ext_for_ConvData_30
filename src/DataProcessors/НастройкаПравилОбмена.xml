@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<DataProcessor uuid="1412f8cb-677d-4b69-adee-cb02673cb789">
+		<InternalInfo>
+			<xr:GeneratedType name="DataProcessorObject.НастройкаПравилОбмена" category="Object">
+				<xr:TypeId>fe60858d-ae83-447f-8904-dc5cc975b16e</xr:TypeId>
+				<xr:ValueId>e8e8df2c-4071-4624-9f32-a378322ebf23</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DataProcessorManager.НастройкаПравилОбмена" category="Manager">
+				<xr:TypeId>96986ba9-f70c-49da-b879-89e0a2192ec7</xr:TypeId>
+				<xr:ValueId>4c72da38-70c6-41d4-8cbd-bd2e1e31c03a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>НастройкаПравилОбмена</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="de3b76ec-c0dc-409e-8dc5-7e2de89b3202">
+				<Properties>
+					<Name>Конвертация</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Конвертации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ОсновнаяФорма</Form>
+		</ChildObjects>
+	</DataProcessor>
+</MetaDataObject>

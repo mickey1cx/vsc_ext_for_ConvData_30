@@ -26,7 +26,46 @@
 		<Properties>
 			<Name>Алгоритмы</Name>
 			<ObjectBelonging>Adopted</ObjectBelonging>
+			<CodeLength>50</CodeLength>
+			<CodeType>String</CodeType>
+			<CodeAllowedLength>Fixed</CodeAllowedLength>
 		</Properties>
-		<ChildObjects/>
+		<ChildObjects>
+			<Attribute uuid="f296caa6-1f4f-4593-846c-7c52111aa863">
+				<Properties>
+					<Name>Алгоритм</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="77467746-dc6d-4442-b8e2-95242a330a91">
+				<Properties>
+					<Name>Параметры</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="492c4b91-e216-47e5-90b3-759ade5704d7">
+				<Properties>
+					<Name>Группа</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ГруппыПравил</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
 	</Catalog>
 </MetaDataObject>
