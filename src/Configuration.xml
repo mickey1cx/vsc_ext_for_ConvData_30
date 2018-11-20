@@ -46,7 +46,7 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor/>
-			<Version/>
+			<Version>1.0.0.1</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<InterfaceCompatibilityMode>Taxi</InterfaceCompatibilityMode>
 			<CompatibilityMode>Version8_3_10</CompatibilityMode>
@@ -54,12 +54,19 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<CommonPicture>vsc_icon</CommonPicture>
+			<CommonTemplate>vsc_СтруктураВнешнейОбработки</CommonTemplate>
 			<CommonModule>vsc_ОбработчикиРедактирования</CommonModule>
 			<CommonCommand>vsc_Code</CommonCommand>
+			<CommonCommand>vsc_НастройкаПравилСозданияМенеджераОбмена</CommonCommand>
 			<Catalog>Алгоритмы</Catalog>
 			<Catalog>Конвертации</Catalog>
 			<Catalog>ПравилаКонвертацииОбъектов</Catalog>
 			<Catalog>ПравилаОбработкиДанных</Catalog>
+			<Catalog>СоставыКонвертаций</Catalog>
+			<Catalog>ПравилаКонвертацииПредопределенныхДанных</Catalog>
+			<Catalog>ГруппыПравил</Catalog>
+			<DataProcessor>НастройкаПравилОбмена</DataProcessor>
+			<DataProcessor>vsc_НастройкаПравилСозданияМенеджераОбмена</DataProcessor>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

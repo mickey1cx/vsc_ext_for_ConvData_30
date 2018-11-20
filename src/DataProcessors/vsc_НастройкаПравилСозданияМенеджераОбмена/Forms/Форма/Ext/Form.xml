@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="Конвертация" id="1">
+			<DataPath>Объект.Конвертация</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<TitleFont ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+			<ContextMenu name="КонвертацияКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="КонвертацияРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<UsualGroup name="ГруппаКаталогДляГотовыхФайлов" id="25">
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа каталог для готовых файлов</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<ExtendedTooltip name="ГруппаКаталогДляГотовыхФайловРасширеннаяПодсказка" id="26"/>
+			<ChildItems>
+				<InputField name="КаталогДляГотовыхФайлов" id="4">
+					<DataPath>Объект.КаталогДляГотовыхФайлов</DataPath>
+					<TitleFont ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+					<ChoiceButton>true</ChoiceButton>
+					<ContextMenu name="КаталогДляГотовыхФайловКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="КаталогДляГотовыхФайловРасширеннаяПодсказка" id="6"/>
+					<Events>
+						<Event name="StartChoice">КаталогДляГотовыхФайловНачалоВыбора</Event>
+					</Events>
+				</InputField>
+				<LabelDecoration name="ДекорацияКаталогДляГотовыхФайлов" id="22">
+					<HorizontalStretch>true</HorizontalStretch>
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Указать каталог, в котором будет создана оброботка.
+Имя обработки будет образовано исхдя из наименования конвертации по шаблону:
+ "МенеджерОбмена" + [Конвертация] + ".epf"</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ДекорацияКаталогДляГотовыхФайловКонтекстноеМеню" id="23"/>
+					<ExtendedTooltip name="ДекорацияКаталогДляГотовыхФайловРасширеннаяПодсказка" id="24"/>
+				</LabelDecoration>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаВерсияПлатформыДляГенерацииEPF" id="27">
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа версия платформы для генерации EPF</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<ExtendedTooltip name="ГруппаВерсияПлатформыДляГенерацииEPFРасширеннаяПодсказка" id="28"/>
+			<ChildItems>
+				<InputField name="ВерсияПлатформыДляГенерацииEPF" id="7">
+					<DataPath>Объект.ВерсияПлатформыДляГенерацииEPF</DataPath>
+					<TitleFont ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+					<ChoiceButton>true</ChoiceButton>
+					<InputHint>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>C:\Program Files (x86)\1cv8</v8:content>
+						</v8:item>
+					</InputHint>
+					<ContextMenu name="ВерсияПлатформыДляГенерацииEPFКонтекстноеМеню" id="8"/>
+					<ExtendedTooltip name="ВерсияПлатформыДляГенерацииEPFРасширеннаяПодсказка" id="9"/>
+					<Events>
+						<Event name="StartChoice">ВерсияПлатформыДляГенерацииEPFНачалоВыбора</Event>
+					</Events>
+				</InputField>
+				<LabelDecoration name="ДекорацияВерсияПлатформыДляГенерацииEPF" id="16">
+					<HorizontalStretch>true</HorizontalStretch>
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>По умолчанию поиск необходимой версии 1С идет в каталоге "C:\Program Files (x86)\1cv8"
+Если каталог  отличается, необходимо его явно указать.</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ДекорацияВерсияПлатформыДляГенерацииEPFКонтекстноеМеню" id="17"/>
+					<ExtendedTooltip name="ДекорацияВерсияПлатформыДляГенерацииEPFРасширеннаяПодсказка" id="18"/>
+				</LabelDecoration>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаРежимОтладки" id="29">
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа режим отладки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<ExtendedTooltip name="ГруппаРежимОтладкиРасширеннаяПодсказка" id="30"/>
+			<ChildItems>
+				<CheckBoxField name="РежимОтладки" id="19">
+					<DataPath>Объект.РежимОтладки</DataPath>
+					<TitleFont ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="РежимОтладкиКонтекстноеМеню" id="20"/>
+					<ExtendedTooltip name="РежимОтладкиРасширеннаяПодсказка" id="21"/>
+				</CheckBoxField>
+				<LabelDecoration name="ДекорацияРежимОтладки" id="31">
+					<HorizontalStretch>true</HorizontalStretch>
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Включение режима позволяет диагностировать различные ошибки, возникающие в процессе генерации epf.
+При включении режима отладки:
+○ Выводятся отладочные сообщения.
+○ Не очищается временный каталог с логами создания epf.</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ДекорацияРежимОтладкиКонтекстноеМеню" id="32"/>
+					<ExtendedTooltip name="ДекорацияРежимОтладкиРасширеннаяПодсказка" id="33"/>
+				</LabelDecoration>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаКоманд" id="12">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа команд</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа команд</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаКомандРасширеннаяПодсказка" id="13"/>
+			<ChildItems>
+				<Button name="Отмена" id="14">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.Отмена</CommandName>
+					<ExtendedTooltip name="ОтменаРасширеннаяПодсказка" id="15"/>
+				</Button>
+				<Button name="ЗаписатьНастройки" id="10">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.ЗаписатьНастройки</CommandName>
+					<ExtendedTooltip name="ЗаписатьНастройкиРасширеннаяПодсказка" id="11"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.vsc_НастройкаПравилСозданияМенеджераОбмена</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ЗаписатьНастройки" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Записать настройки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Записать настройки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.Write</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ЗаписатьНастройки</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+		<Command name="Отмена" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отмена</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отмена</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.Stop</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>Отмена</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+	</Commands>
+</Form>

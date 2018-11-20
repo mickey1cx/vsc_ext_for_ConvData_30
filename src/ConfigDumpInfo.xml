@@ -1,17 +1,4 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.4">
-	<ConfigVersions>
-		<Metadata name="Catalog.Алгоритмы" id="256911e4-46ca-4640-9ff3-28589af9b995" configVersion="84224357172cb914c43be8c5606d05fbbdd85e88"/>
-		<Metadata name="Catalog.Конвертации" id="07c110b9-d058-4a5e-8c82-77a967676d34" configVersion="6b9493a6d44c13e5c14d9b397a99e0df6942b2a0"/>
-		<Metadata name="Catalog.ПравилаКонвертацииОбъектов" id="b8a8ba79-6228-43b2-b42f-218901ff6875" configVersion="fe780dcdb111ba9a4873990520b29779f34e5e43"/>
-		<Metadata name="Catalog.ПравилаОбработкиДанных" id="b171be7c-a5fd-45e2-97fa-1493d630d338" configVersion="c1bf7c18a925b9147e9ef2f4a30f111640207996"/>
-		<Metadata name="CommonCommand.vsc_Code" id="338687ee-4b2c-419f-bd0e-06f55981d76b" configVersion="97de5e345d396d47a562c226f751213c30a8ab38"/>
-		<Metadata name="CommonCommand.vsc_Code.CommandModule" id="338687ee-4b2c-419f-bd0e-06f55981d76b.2" configVersion="d9e2f645a1f2582178790d393a1aa0313efe1f05"/>
-		<Metadata name="CommonModule.vsc_ОбработчикиРедактирования" id="8645edd2-492c-4b7a-989c-c897acae265a" configVersion="8bcbac2331c56986e177682e8610d8bdc41471fa"/>
-		<Metadata name="CommonModule.vsc_ОбработчикиРедактирования.Module" id="8645edd2-492c-4b7a-989c-c897acae265a.0" configVersion="4076db16fe0a888d2099dc841a4fb489964064c7"/>
-		<Metadata name="CommonPicture.vsc_icon" id="bc3d2b06-03bf-43f7-bc98-c39a9605e35a" configVersion="f7536c32740e1264b56c3ccbb2f61de3614e9620"/>
-		<Metadata name="CommonPicture.vsc_icon.Picture" id="bc3d2b06-03bf-43f7-bc98-c39a9605e35a.0" configVersion="9c60175def72c8cd6451e8d04edb45af22c86301"/>
-		<Metadata name="Configuration.vsc" id="9b129ace-6a62-440a-bdd7-6cacfa17a8df" configVersion="7d0d44d4046adc805024b7db61c5cc38aaf1facf"/>
-		<Metadata name="Language.Русский" id="835df396-67b5-4523-81d5-ac8c9569a40f" configVersion="967ed9faf7d9b5c44ace3b4bdcb6646ff0005116"/>
-	</ConfigVersions>
+	<ConfigVersions/>
 </ConfigDumpInfo>

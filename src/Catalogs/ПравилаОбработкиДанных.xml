@@ -26,7 +26,133 @@
 		<Properties>
 			<Name>ПравилаОбработкиДанных</Name>
 			<ObjectBelonging>Adopted</ObjectBelonging>
+			<DescriptionLength>150</DescriptionLength>
 		</Properties>
-		<ChildObjects/>
+		<ChildObjects>
+			<Attribute uuid="50628450-bee7-4eea-a715-0c0a7487d620">
+				<Properties>
+					<Name>ОбъектВыборки</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>100</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="a607679a-a084-463b-a8d9-f61fcd470ab3">
+				<Properties>
+					<Name>АлгоритмПередОбработкой</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="dd63ecc8-31a8-4ef2-9f80-7969b71c2f08">
+				<Properties>
+					<Name>ИспользоватьДляПолучения</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="69b991c2-016d-4217-9722-b9b476bfaf23">
+				<Properties>
+					<Name>ИспользоватьДляОтправки</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="2ed0bbe5-2eed-4b5d-b8f5-3c0968464bbc">
+				<Properties>
+					<Name>Группа</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ГруппыПравил</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="2c24bceb-d95d-44d5-9b4c-02abbf15a975">
+				<Properties>
+					<Name>СпособВыборки</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>1</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="902a451e-f7b7-4c86-affa-a0d804e3719a">
+				<Properties>
+					<Name>ПравилоКонвертацииОбъекта</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>100</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="b43b3dc2-3d08-45c6-aab9-b9b6647fb4ab">
+				<Properties>
+					<Name>АлгоритмПриОбработке</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="1a2259d7-6546-4f98-aed3-5cb124a6a5a2">
+				<InternalInfo>
+					<xr:GeneratedType name="CatalogTabularSection.ПравилаОбработкиДанных.ПравилаКонвертацииОбъектов" category="TabularSection">
+						<xr:TypeId>edc18181-a1a4-453c-9af7-c93b45a4937c</xr:TypeId>
+						<xr:ValueId>ae9e6ee8-cf2e-4598-b640-71441253e40e</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="CatalogTabularSectionRow.ПравилаОбработкиДанных.ПравилаКонвертацииОбъектов" category="TabularSectionRow">
+						<xr:TypeId>cf5d99dc-5015-43fe-a0db-bdade57d2c65</xr:TypeId>
+						<xr:ValueId>e8a7917e-e526-4d8f-8351-b21f59ba111a</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ПравилаКонвертацииОбъектов</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="f4f42d75-3eef-4dd6-9be5-a278fc945173">
+						<Properties>
+							<Name>ПравилоКонвертацииОбъекта</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>100</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
 	</Catalog>
 </MetaDataObject>
