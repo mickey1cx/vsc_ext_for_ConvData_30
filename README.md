@@ -25,3 +25,6 @@
         https://marketplace.visualstudio.com/items?itemName=xDrivenDevelopment.language-1c-bsl
 
 
+![image](https://user-images.githubusercontent.com/18395787/48768558-63665580-ecca-11e8-9784-5a52c8dd50cd.png)
+
+![image](https://user-images.githubusercontent.com/18395787/48768641-a4f70080-ecca-11e8-8caf-633f0fcf443b.png)
