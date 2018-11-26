@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<Catalog uuid="fef1eee5-98f1-4a37-805e-e6cb91ea719b">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ПравилаКонвертацииПредопределенныхДанных" category="Object">
+				<xr:TypeId>6ff93d56-8c5c-4e16-acee-a61367627517</xr:TypeId>
+				<xr:ValueId>d0d2ca06-878a-405e-939f-9b0c5d22d3cd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ПравилаКонвертацииПредопределенныхДанных" category="Ref">
+				<xr:TypeId>dd9a331a-4f59-4102-89d8-af0518e94ca8</xr:TypeId>
+				<xr:ValueId>e526cabb-a357-4951-a116-f6e2679fa8a6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ПравилаКонвертацииПредопределенныхДанных" category="Selection">
+				<xr:TypeId>9f54a7ae-e387-42d8-a348-39b6bd79e6e5</xr:TypeId>
+				<xr:ValueId>eb3eefde-f24f-4af6-962d-4bc6d5922d5b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ПравилаКонвертацииПредопределенныхДанных" category="List">
+				<xr:TypeId>41a76954-fdf8-4f45-9c11-508a66fc2361</xr:TypeId>
+				<xr:ValueId>37b3adfa-b57a-4b15-9216-7654c5fe6643</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ПравилаКонвертацииПредопределенныхДанных" category="Manager">
+				<xr:TypeId>b173dea6-2017-403e-9a1f-ac8c1c6625d7</xr:TypeId>
+				<xr:ValueId>4f8ce358-adbc-4176-8ce5-011448cd499b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПравилаКонвертацииПредопределенныхДанных</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<CodeLength>50</CodeLength>
+			<CodeType>String</CodeType>
+			<CodeAllowedLength>Variable</CodeAllowedLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="4eda43d0-c978-4bde-bc2b-7cfe9dc8c70b">
+				<Properties>
+					<Name>Группа</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ГруппыПравил</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="05b1609c-5972-4b7f-8b67-f532444ce5c4">
+				<Properties>
+					<Name>ИспользоватьДляОтправки</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="95ee5b06-04e8-45b0-8da1-dec0fa82477a">
+				<Properties>
+					<Name>ИспользоватьДляПолучения</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="1c3a7972-fd5f-4196-85d5-87fceaaec5bd">
+				<Properties>
+					<Name>ОбъектФормата</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>100</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="067a7a66-8463-4501-8cdb-eaf283291417">
+				<Properties>
+					<Name>ОбъектКонфигурации</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>100</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="b9a86ec0-c3df-4ae6-833a-60a8d6f987ca">
+				<InternalInfo>
+					<xr:GeneratedType name="CatalogTabularSection.ПравилаКонвертацииПредопределенныхДанных.СопоставлениеЗначений" category="TabularSection">
+						<xr:TypeId>4b9ef564-7cf3-4611-a3b4-ab05f3f1adf5</xr:TypeId>
+						<xr:ValueId>13cc661c-9a6c-47f7-980a-a16ce4551db2</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="CatalogTabularSectionRow.ПравилаКонвертацииПредопределенныхДанных.СопоставлениеЗначений" category="TabularSectionRow">
+						<xr:TypeId>62f12102-4bb0-40e4-9acd-2375c71d6de2</xr:TypeId>
+						<xr:ValueId>0f54506f-03cd-4102-adbb-f30d87f93b53</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>СопоставлениеЗначений</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="7e0cbf19-f905-43c5-af5a-b2236139fcc5">
+						<Properties>
+							<Name>ЗначениеФормата</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>100</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="450fe8d0-719a-43fe-a00e-b41ccfa65dbd">
+						<Properties>
+							<Name>ЗначениеКонфигурации</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>100</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

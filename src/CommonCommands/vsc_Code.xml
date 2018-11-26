@@ -17,7 +17,7 @@
 				<xr:Ref>CommonPicture.vsc_icon</xr:Ref>
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
-			<Shortcut/>
+			<Shortcut>Ctrl+Shift+E</Shortcut>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<CommandParameterType>
 				<v8:Type>cfg:CatalogRef.ПравилаОбработкиДанных</v8:Type>
