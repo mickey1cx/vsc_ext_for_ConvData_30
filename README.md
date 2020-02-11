@@ -10,6 +10,6 @@ VS Code должен быть настроен на открытие файло�
 Установлен плагин Language 1C (BSL)  
 https://marketplace.visualstudio.com/items?itemName=xDrivenDevelopment.language-1c-bsl
 
-Публикации:
-https://start1c.blogspot.com/2018/07/30-vs-code.html
-https://infostart.ru/public/868632/
+Публикации:  
+https://start1c.blogspot.com/2018/07/30-vs-code.html  
+https://infostart.ru/public/868632/  
